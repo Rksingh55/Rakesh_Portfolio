@@ -17,7 +17,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 function Homepage3() {
   return (
     <>
-      <div>
+      <div className="">
         <div>
           <Topover />
           <div className="parallax">

@@ -19,9 +19,7 @@ font-family: 'Inter', sans-serif; */
   box-sizing: border-box;
 }
 
-.mainhomepage {
-  /* height: 1500px; */
-}
+
 
 .feedbackcard{
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 34% 73%, 15% 87%, 13% 75%, 0% 75%);
