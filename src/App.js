@@ -39,7 +39,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 400,
+      duration: 700,
       easing: "ease-out-cubic",
       disable: 'mobile'
       
