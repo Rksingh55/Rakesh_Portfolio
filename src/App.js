@@ -24,7 +24,7 @@ function Loader() {
     <>
      <div class="flex justify-center items-center h-screen bg-[#333B50]">
     <div class="flex justify-center items-center">
-        <div class="border-2 hover:bg-[#00d646] w-[80px] flex justify-center items-center h-[80px] rounded-full border-[#00d646] px-8 py-3 text-white font-bold text-4xl mb-12 md:mb-5 animate-shadow-infinite">R</div>
+        <div class="border-2 hover:bg-[#00d646] w-[80px] flex justify-center items-center h-[80px] rounded-full border-[#00d646] px-8 py-3 text-white font-bold text-4xl mb-12 md:mb-5 animate-shadow-infinite p-3">RK</div>
     </div>
 </div>
 
@@ -41,6 +41,8 @@ function App() {
     AOS.init({
       duration: 700,
       easing: "ease-out-cubic",
+      disable: 'mobile'
+      
     });
   }, []);
 

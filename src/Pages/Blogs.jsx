@@ -62,44 +62,70 @@ function Latestproject() {
       Paragraph:
         "The GitHub Foundations Certification was released just a few weeks ago. And you can now watch a 9-hour exam prep course on the freeCodeCamp.org YouTube channel! Andrew Brown from ExamPro created this course. He has created a bunch of popular exam prep courses for the freeCodeCamp.org YouTube channel.",
     },
-    
   ];
   return (
     <>
-    <Header Name="Blogs"/>
-      <div className=" mt-3">
-      <div style={{backgroundColor:"whitesmoke"}} className="flex md:flex-row max-sm:bg-white md:bg-[#9E22FF] rounded-[20px] md:px-10 flex-col justify-between md:w-[80%] m-auto w-[95%] ">
-        <div data-aos="zoom-in" className="flex flex-wrap md:gap-2 max-sm:gap-5 py-5 max-sm:px-2  md:flex-row flex-col  ">
-          {Array.map((value, index) => (
-            <div class="md:w-[32%] w-full mx-auto my-4 duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer">
-              <div class="bg-white rounded-md overflow-hidden shadow-md transition-transform transform cursor-pointer">
-                <img
-                  src={value?.Img}
-                  alt="Blog Image"
-                  class="w-full h-40 object-cover"
-                />
-                <div class="p-4">
-                  <h3 class="text-xl font-semibold mb-2 line-clamp-2">{value?.Heading}</h3>
-                  <p class="text-gray-600 line-clamp-6">{value?.Paragraph}</p>
-                  <a
-                    href="#"
-                    class="mt-3 inline-block text-blue-500 hover:text-blue-700"
-                  >
-                    Read More
-                  </a>
+      <div className="conatctpage">
+        <div className="parallax3">
+          <div className="sss ">
+            <div className="flex justify-center  items-center text-white  py-[60px]">
+              <div className=" flex gap-5 ">
+                <div className="flex justify-center  items-center">
+                  <h1 className="text-[80px] text-[#bec785]">04</h1>
+                </div>
+                <div>
+                  <h1 className="text-white">BLOGS</h1>
+                  <h3>Checkout Latest Blogs </h3>
                 </div>
               </div>
             </div>
-          ))}
+           
+            <div className="flex md:flex-row   rounded-[20px] md:px-10 flex-col justify-between md:w-[80%] m-auto full ">
+  <div
+    data-aos="zoom-in"
+    className="flex flex-wrap md:gap-2 max-sm:gap-5  max-sm:px-2  md:flex-row flex-col  "
+  >
+    {Array.map((value, index) => (
+      <div class="md:w-[32%] w-full mx-auto  duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer">
+        <div class="bg-white rounded-md overflow-hidden shadow-md transition-transform transform cursor-pointer">
+          <img
+            src={value?.Img}
+            alt="Blog Image"
+            class="w-full h-40 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2 line-clamp-2">
+              {value?.Heading}
+            </h3>
+            <p class="text-gray-600 line-clamp-6">{value?.Paragraph}</p>
+            <a
+              href="#"
+              class="mt-3 inline-block text-blue-500 hover:text-blue-700"
+            >
+              Read More
+            </a>
+          </div>
         </div>
-        <br />
-        <br />
       </div>
-      <br />
-      <br />
-    </div>
+    ))}
+  </div>
+  <br />
+  <br />
+</div>;
+
+          </div>
+        </div>
+
+
+        {/* //footer */}
+        <div className=" text-center p-6 bg-[#333B50]">
+          <p>©copyright 2024 Design & Deveoped By Rakesh Singh</p>
+        </div>
+      </div>
     </>
   );
 }
 
 export default Latestproject;
+
+

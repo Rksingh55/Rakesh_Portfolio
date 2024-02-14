@@ -1,5 +1,5 @@
 .parallax {
-  background-image: url("https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150061967.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=sph");
+  background-image: url("https://img.freepik.com/free-photo/3d-render-digital-particles-techno-background_1048-14519.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais");
   min-height: 1000px;
   background-attachment: fixed;
   background-position: center;
@@ -97,3 +97,4 @@
 .animate-zoom-infinite {
     animation: zoom 8s infinite;
 }
+
