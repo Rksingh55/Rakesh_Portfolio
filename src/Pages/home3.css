@@ -1,0 +1,99 @@
+.parallax {
+  background-image: url("https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150061967.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=sph");
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+
+.parallax {
+  position: relative;
+}
+
+.parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+
+
+.parallax .parallaxcontent{
+  opacity: 0.9;
+}
+
+
+
+.parallax2 {
+  background-image: url("https://img.freepik.com/free-photo/black-white-photo-surface-with-multiple-triangles_250224-161.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais");
+  background-attachment: fixed;
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.parallax4 {
+  background-image: url("https://img.freepik.com/free-photo/3d-render-modern-network-communications-low-poly-plexus-design_1048-13390.jpg?w=826&t=st=1707852140~exp=1707852740~hmac=d1b8f2eb35d6fa51490f8b9a664bc96aeeb9e15a78d7cfdf31ba85b2bab40019");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+    position: relative;
+  }
+  
+  .parallax3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+  }
+  
+
+  .parallax3 .sss{
+    opacity: 0.9;
+  }
+  .parallax3 {
+    background-image: url("https://static.wixstatic.com/media/035244_1f9f5504879f46cc90c68e323a18ea59~mv2_d_1920_3986_s_2.jpg/v1/fill/w_1899,h_3636,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/035244_1f9f5504879f46cc90c68e323a18ea59~mv2_d_1920_3986_s_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+
+
+  
+ 
+
+  @keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animate-zoom-infinite {
+    animation: zoom 8s infinite;
+}
