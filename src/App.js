@@ -41,7 +41,7 @@ function App() {
     AOS.init({
       // duration: 700,
       // easing: "ease-out-cubic",
-      // disable: 'mobile'
+      disable: 'mobile'
       
     });
   }, []);
@@ -63,6 +63,8 @@ function App() {
           <CursorBubble />
           <Routes>
             <Route path="/" element={<Homepage3 />} />
+            <Route path="/home2" element={<Home />} />
+
             <Route path="/about" element={<About />} />
             <Route path="/service" element={<Services />} />
             <Route path="/project" element={<AllProjects />} />

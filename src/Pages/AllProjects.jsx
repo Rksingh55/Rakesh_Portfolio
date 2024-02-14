@@ -3,6 +3,7 @@ import Img from "../Images/codingimg2.png";
 import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import Header from "./Header";
+import { Link } from "react-router-dom";
 function AllProjects() {
   const Array = [
     {
@@ -126,10 +127,10 @@ function AllProjects() {
       <p className="text-gray-400 text-sm">
         {value?.Discription}
       </p>
-      <button className="border-2 text-black bg-[#00d646] hover:text-white px-5 py-2 ">
-        <a href={value?.UrlLink} target="blank" className="text-decoration-none text-black font-bold">
+      <button className="border-2 text-[#00d646] hover:border-solid hover:border-[#00d646] border-dotted  border-[#00d646]  px-5 py-2 ">
+        <Link href={value?.UrlLink} target="blank" className="  text-decoration-none text-[#00d646] font-bold">
           Go Live
-        </a>
+        </Link>
       </button>
     </div>
   </div>
@@ -152,33 +153,4 @@ function AllProjects() {
 
 export default AllProjects;
 
-{
-  /* <div className="flex max-sm:gap-4 flex-wrap justify-center">
-{Array.map((value, index) => (
-  <div key={index}   class="group border-2  flex flex-col justify-start items-start gap-4 w-full md:w-1/3 duration-500 relative rounded-lg p-4 bg-white hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer">
-    <div className="flex gap-4  flex-col">
-      <div className=" w-full">
-        <img className="rounded-md" src={value?.Image} alt={value?.ProjectName} />
-      </div>
-      <div className="relative z-[1]  w-full">
-        <h2 className="text-2xl font-bold mb-2 text-black">
-          {value?.ProjectName}
-        </h2>
-        <p className="text-black line-clamp-4">{value?.Discription}</p>
-        <div>
-          <h6>Technologies Used</h6>
-          <p>{value?.TechUsed}</p>
-        </div>
-        <a
-          target="_blank"
-          href={value?.UrlLink}
-          className="bg-gray-800 text-white text-decoration-none hover:bg-gray-700 rounded-full py-2 px-6"
-        >
-          Go Live
-        </a>
-      </div>
-    </div>
-  </div>
-))}
-</div> */
-}
+

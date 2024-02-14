@@ -87,7 +87,7 @@ function Latestproject() {
   >
     {Array.map((value, index) => (
       <div class="md:w-[32%] w-full mx-auto  duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer">
-        <div class="bg-white rounded-md overflow-hidden shadow-md transition-transform transform cursor-pointer">
+        <div class="bg-white  overflow-hidden shadow-md transition-transform transform cursor-pointer">
           <img
             src={value?.Img}
             alt="Blog Image"

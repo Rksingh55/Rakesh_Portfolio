@@ -40,11 +40,18 @@ p{
 
 }
 .mainbanner {
-  background-image: url("../public/Image/Landingpagebanner.png");
+  background-image: url("../public/Image/Group 17.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+.about1{
+  background-image: url("https://img.freepik.com/free-photo/html-system-websites-collage-design_23-2150432937.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .Navbar{

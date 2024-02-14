@@ -10,22 +10,17 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { Link } from "react-router-dom";
 function Latestproject() {
   return (
-    <div className="bg-transparent">
-      <Header Name="About Me" />
+    <div className="bg-white ">
 
       <div
         
         className="mt-4 max-sm:bg-white bg-white rounded-[10px] md:w-[80%] m-auto w-full "
       >
         <div className="flex md:flex-row flex-col ">
-          <div className="basis-1/2 flex item-center justify-center pt-5" data-aos="fade-right">
-            {/* <div className="aboutone "></div> */}
-            <div className="h-[400px] w-[300px] bg-red-500   relative rounded-md">
-              <div className="h-[300px] w-[200px]  bg-white absolute md:mt-12 mt-5 rounded-md ml-[120px] md:ml-[150px]">
-                <div className="flex item-center mt-[40%]">
-                  <img src={Codingimg} />
+          <div className="basis-1/2 flex item-center justify-center " data-aos="fade-right">
+            <div className=" ">
+            <div className="h-[600px] w-[500px] about1   ">
                 </div>
-              </div>
             </div>
           </div>
           <div className="basis-1/2" data-aos="fade-left">
@@ -37,15 +32,7 @@ function Latestproject() {
                 Software Engineer
               </h1>
               <p className="md:w-[80%] w-full text-justify ">
-                Passionate about software development, I bring one year of
-                experience in creating elegant and maintainable code. My
-                expertise includes [highlight specific areas], and I am
-                committed to staying at the forefront of technological
-                advancements. Passionate about software development, I bring one
-                year of experience in creating elegant and maintainable code. My
-                expertise includes [highlight specific areas], and I am
-                committed to staying at the forefront of technological
-                advancements.
+              With one year of experience in software development, I am dedicated to crafting elegant and maintainable code. My skill set encompasses HTML, CSS, Bootstrap, Tailwind CSS, ReactJS, and Next.js. I am deeply passionate about staying abreast of technological advancements and leveraging them to enhance my expertise continually. In my work, I prioritize creating intuitive and efficient user interfaces while ensuring code quality and scalability. I thrive in collaborative environments, where I can contribute my knowledge and learn from others to deliver exceptional results. My commitment to excellence drives me to seek innovative solutions to complex problems, always striving for optimal performance and usability in every project. With a solid foundation in front-end development and a keen interest in emerging technologies, I am poised to make meaningful contributions to any team or project.
               </p>
               <div className="flex">
                 <div className="flex gap-2">

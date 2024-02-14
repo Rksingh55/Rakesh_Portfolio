@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 // border-b-[3px] bg-white shadow-md border-gradient
 function Navbar() {
   return (
-    <div className="w-full bg-[#333B50]   text-white shadow-md ">
+    <div className="w-full md:bg-[#333B50]  bg-black text-white shadow-md ">
       {/* <div className="bg-blue-300 underline  cursor-pointer flex items-center justify-center text-white p-2">Checkout My new website</div> */}
       <div className="w-full max-sm:px-5 m-auto md:w-[60%]   ">
         <div className="flex justify-between items-center max-sm:py-5  md:p-3    ">
@@ -33,16 +33,15 @@ function Navbar() {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div class="modal-dialog   ">
+              <div class="modal-dialog  ">
                 <div class="modal-content ">
-                  <div class="modal-header   ">
-                    <h5>RkPort.</h5>
+                  <div class="modal-header    bg-black border-b-2 border-dotted border-yellow ">
+                    {/* <h5>RkPort.</h5> */}
                     <button
                       type="button"
-                      class="btn-close text-[20px]"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
+                      class="btn-close text-[20px] bg-white "
+                    >
+                    </button>
                   </div>
 
                   <div className="mt-3">
@@ -53,6 +52,11 @@ function Navbar() {
                             Home
                           </li>
                         </Link>
+                        <Link to="/home2">
+                  <li className="text-black font-thin p-1  text cursor-pointer">
+                    Home2
+                  </li>
+                </Link>
                         {/* <Link to="/about">
                           <li className=" text-black font-thin p-1 w-[80%]   hover-text-black cursor-pointer ">
                             About
@@ -93,6 +97,11 @@ function Navbar() {
               <div class="bars" id="bar3"></div>
             </label>
           </div>
+
+
+
+
+          
           {/* //for full screen */}
           <div className="max-sm:hidden md:mt-3 ">
             <nav className="">
@@ -102,11 +111,11 @@ function Navbar() {
                     Home
                   </li>
                 </Link>
-                {/* <Link to="/about">
+                <Link to="/home2">
                   <li className="hover:text-[#00d646]   text cursor-pointer">
-                    About
+                    Home2
                   </li>
-                </Link> */}
+                </Link>
 
                 <Link to="/project">
                   <li className="hover:text-[#00d646]   text cursor-pointer">

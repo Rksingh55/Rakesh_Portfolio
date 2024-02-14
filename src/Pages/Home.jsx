@@ -32,7 +32,6 @@ import Latestproject from "./Latestproject";
 import { Link } from "react-router-dom";
 import { FaFacebookSquare } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
-import Homepage1 from "./Homepage1";
 import Topover from "./topover";
 function Home() {
   var TxtType = function(el, toRotate, period) {
@@ -97,8 +96,7 @@ window.onload = function() {
 
       <div className="mainhomepage z-10 ">
         <div className="mainbanner flex  justify-center ">
-        <Homepage1/>
-          {/* <div className="w-[92%] m-auto md:w-[80%]  ">
+          <div className="w-[92%] m-auto md:w-[80%]  ">
             <div className="flex md:flex-row flex-col ">
               <div className="basis-1/2">
                 <div className="">
@@ -233,7 +231,7 @@ window.onload = function() {
 
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
 
         {/* //socialicons */}
@@ -256,14 +254,8 @@ window.onload = function() {
         <div className=" bg-[#9E22FF] md:p-12 ">
           <div className="md:w-[80%] w-auto w-[92%]">
             <div className="flex md:flex-row flex-col ">
-              <div className="basis-1/2 flex item-center justify-center pt-5">
-                {/* <div className="aboutone "></div> */}
-                <div className="h-[400px] w-[300px] bg-red-500   relative rounded-md">
-                  <div className="h-[300px] w-[200px]  bg-white absolute md:mt-12 mt-5 rounded-md ml-[120px] md:ml-[150px]">
-                    <div className="flex item-center mt-[40%]">
-                      <img src={Codingimg} />
-                    </div>
-                  </div>
+              <div className="basis-1/2 flex item-center justify-center ">
+                <div className="h-[600px] w-[500px] about1   ">
                 </div>
               </div>
               <div className="basis-1/2" >
@@ -275,15 +267,7 @@ window.onload = function() {
                     Software Engineer
                   </h1>
                   <p  className="md:w-[80%] w-full text-justify ">
-                    Passionate about software development, I bring one year of
-                    experience in creating elegant and maintainable code. My
-                    expertise includes [highlight specific areas], and I am
-                    committed to staying at the forefront of technological
-                    advancements. Passionate about software development, I bring
-                    one year of experience in creating elegant and maintainable
-                    code. My expertise includes [highlight specific areas], and
-                    I am committed to staying at the forefront of technological
-                    advancements.
+                  With one year of experience in software development, I am dedicated to crafting elegant and maintainable code. My skill set encompasses HTML, CSS, Bootstrap, Tailwind CSS, ReactJS, and Next.js. I am deeply passionate about staying abreast of technological advancements and leveraging them to enhance my expertise continually. In my work, I prioritize creating intuitive and efficient user interfaces while ensuring code quality and scalability. I thrive in collaborative environments, where I can contribute my knowledge and learn from others to deliver exceptional results. My commitment to excellence drives me to seek innovative solutions to complex problems, always striving for optimal performance and usability in every project. With a solid foundation in front-end development and a keen interest in emerging technologies, I am poised to make meaningful contributions to any team or project.
                   </p>
                   <div className="flex">
                     <div className="flex gap-2">
@@ -334,6 +318,7 @@ window.onload = function() {
 
         {/* //testiomonils */}
        <Testimonials/>
+       <Footer/>
       </div>
     </>
   );

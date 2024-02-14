@@ -3,6 +3,8 @@ import Header from "./Header";
 import contact from "../Images/conatct.png";
 import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
+import { TfiEmail } from "react-icons/tfi";
+import { BsTelephone } from "react-icons/bs";
 function Contact() {
   return (
     <div className="conatctpage">
@@ -49,18 +51,24 @@ function Contact() {
       <div className="flex justify-center items-center ">
         <div className="md:w-[70%] w-[95%] m-auto absolute bg-[#333B50] ">
           <div className="flex  justify-beteen md:p-[100px] p-[20px] md:flex-row flex-col">
-            <div className="basis-1/2 text-white">
-              <h3 className="max-sm:py-2">CONTACT</h3>
-              <p className="text-white md:w-[80%] text-justify w-full ">
-                I'M a Passionate about software development, I bring one year of
-                experience in creating elegant and maintainable code. My
-                expertise includes Html, Css , Bootstrap, Tailwindcss, ReactJs,
-                Nextjs, and I am committed to staying at the forefront of
-                technological advancements.
-              </p>
-              <p className="text-white ">rakeshecon@gmail.com</p>
-              <p className="text-white">Tel: +917310307513, +91 9621671657</p>
-            </div>
+          <div data-aos="zoom-in" className="basis-1/2 text-white">
+                  <h3 className="max-sm:py-2">CONTACT</h3>
+                  <p className=" md:w-[80%]  w-full ">
+                    I'M a Passionate about software development, I bring one
+                    year of experience in creating elegant and maintainable
+                    code. My expertise includes Html, Css , Bootstrap,
+                    Tailwindcss, ReactJs, Nextjs, and I am committed to staying
+                    at the forefront of technological advancements.
+                  </p>
+                  <p className="text flex gap-2">
+                  <TfiEmail className="mt-1"/>
+                  rakeshecon@gmail.com</p>
+                  <p className="text flex gap-2">
+                  <BsTelephone className="mt-1"/>
+
+                   +917310307513,  9621671657
+                  </p>
+                </div>
             <div className="basis-1/2">
               <form className="flex gap-2 flex-col">
                 <div className="flex gap-2 md:flex-row flex-col ">

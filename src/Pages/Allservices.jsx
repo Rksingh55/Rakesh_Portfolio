@@ -23,7 +23,7 @@ function Latestproject() {
            
             <div  className="flex-wrap mt-3  flex md:flex-row   md:px-10 flex-col justify-between md:w-[80%] m-auto w-[95%] ">
 <div className="flex md:flex-row flex-wrap justify-center  gap-2 mt-5   ">
-    <div  data-aos="zoom-in" className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer bg-blue-400 rounded-md p-6 flex flex-col justify-between">
+    <div  data-aos="zoom-in" className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer bg-blue-400  p-6 flex flex-col justify-between">
       <div className="text-yellow-500  bg-white rounded-full h-[100px] w-[100px] m-auto">
         <div className="flex items-center justify-center h-full">
           <FcPicture className="w-10 h-10" />
@@ -46,7 +46,7 @@ function Latestproject() {
         Learn More
       </button>
     </div>
-    <div  data-aos="zoom-in" className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer bg-yellow-300 rounded-md p-6 flex flex-col justify-between">
+    <div  data-aos="zoom-in" className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer bg-yellow-300  p-6 flex flex-col justify-between">
       <div className="text-yellow-500 bg-white rounded-full h-[100px] w-[100px] m-auto">
         <div className="flex items-center justify-center h-full">
           <GoCodeReview className="w-10 h-10" />
@@ -70,7 +70,7 @@ function Latestproject() {
         Learn More
       </button>
     </div>
-    <div  data-aos="zoom-in" className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer w-[325px] bg-green-300 rounded-md p-6 flex flex-col justify-between">
+    <div  data-aos="zoom-in" className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer w-[325px] bg-green-300  p-6 flex flex-col justify-between">
       <div className="text-yellow-500 bg-white rounded-full h-[100px] w-[100px] m-auto">
         <div className="flex items-center justify-center h-full ">
           <FcSmartphoneTablet className="w-10 h-10 "  />
@@ -96,7 +96,7 @@ function Latestproject() {
     </div>
   </div>
   <div className="flex md:flex-row flex-wrap justify-center  gap-2 mt-5   ">
-    <div   data-aos="zoom-in" className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer bg-blue-400 rounded-md p-6 flex flex-col justify-between">
+    <div   data-aos="zoom-in" className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer bg-blue-400  p-6 flex flex-col justify-between">
       <div className="text-yellow-500  bg-white rounded-full h-[100px] w-[100px] m-auto">
         <div className="flex items-center justify-center h-full">
           <FcPicture className="w-10 h-10" />
@@ -104,7 +104,7 @@ function Latestproject() {
       </div>
       <div className="text-black">
         <h3 className="text-2xl font-bold mb-2 text-center p-2">
-          UI/UX Design
+          Graphic Design
         </h3>
         <p className="text-black line-clamp-6">
           Transform your brand with our UI/UX design services. We
@@ -119,7 +119,7 @@ function Latestproject() {
         Learn More
       </button>
     </div>
-    <div  data-aos="zoom-in" className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer bg-yellow-300 rounded-md p-6 flex flex-col justify-between">
+    <div  data-aos="zoom-in" className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer bg-yellow-300  p-6 flex flex-col justify-between">
       <div className="text-yellow-500 bg-white rounded-full h-[100px] w-[100px] m-auto">
         <div className="flex items-center justify-center h-full">
           <GoCodeReview className="w-10 h-10" />
@@ -127,7 +127,7 @@ function Latestproject() {
       </div>
       <div className="text-black">
         <h3 className="text-2xl font-bold mb-2 text-center p-2">
-          Website Developments
+          Post Design
         </h3>
         <p className="text-black">
           Crafting tailored websites that stand out. Our website
@@ -143,7 +143,7 @@ function Latestproject() {
         Learn More
       </button>
     </div>
-    <div  data-aos="zoom-in"   className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer w-[325px] bg-green-300 rounded-md p-6 flex flex-col justify-between">
+    <div  data-aos="zoom-in"   className="h-fit  w-full  md:w-[32%] duration-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer w-[325px] bg-green-300  p-6 flex flex-col justify-between">
       <div className="text-yellow-500 bg-white rounded-full h-[100px] w-[100px] m-auto">
         <div className="flex items-center justify-center h-full ">
           <FcSmartphoneTablet className="w-10 h-10 "  />
@@ -151,7 +151,7 @@ function Latestproject() {
       </div>
       <div className="text-black">
         <h3 className="text-2xl font-bold mb-2 text-center p-2">
-          App Developments
+          WebPage Design
         </h3>
         <p className="text-black line-clamp-6">
           Unlock innovation with our app development expertise. We
