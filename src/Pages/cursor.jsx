@@ -34,7 +34,7 @@ const CursorBubble = () => {
     return newColor;
   };
 
-  return <div className="cursor-bubble max-sm:hidden" style={{ left: `${position.x}px`, top: `${position.y}px`, backgroundColor: color }} />; 
+  return <div className="cursor-bubble z-[1000]" style={{ left: `${position.x}px`, top: `${position.y}px`, backgroundColor: color }} />; 
   
 };
 

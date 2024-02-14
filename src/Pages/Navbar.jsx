@@ -130,12 +130,7 @@ function Navbar() {
                   </li>
                 </Link>
 
-                {/* <Link
-                  to="/contact"
-                  className="rounded-[100px] border-2 hover:text-white hover:bg-[#AF5FEF]  border-[#AF5FEF] px-7 md:px-7 text-[#AF5FEF] font-bold  py-1 mt-[-7px]"
-                >
-                  Contact
-                </Link> */}
+                
               </ul>
             </nav>
           </div>

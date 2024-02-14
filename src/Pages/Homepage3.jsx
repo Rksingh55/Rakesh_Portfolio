@@ -26,7 +26,7 @@ function Homepage3() {
                 <div class="max-sm:mb-[120px]">
                   <h1  data-aos="fade-right"
      data-aos-offset="300"
-     data-aos-easing="ease-in-sine" className="md:text-[100px] text-[70px] font-bold text-white">
+     data-aos-easing="ease-in-sine" className="md:text-[60px] text-[50px] font-bold text-white">
                     I<span className="text-[#00d646]">'</span>M
                   </h1>
                   <h1  data-aos="fade-right"
@@ -126,6 +126,8 @@ function Homepage3() {
                 <div className=" p-2 md:w-[70%] m-auto rounded-md text-white">
                   <div className="">
                     <h6>HTML</h6>
+
+                    
                     <div class="progress bg-transparent h-10 mb-2">
                       <div class="progress-bar bg-[#00d646] w-[60%]">80%</div>
                     </div>
