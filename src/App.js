@@ -17,22 +17,24 @@ import Topover from "./Pages/topover";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Aos from "aos";
-import Home2 from "./Pages/Homepage3"
+import Home2 from "./Pages/Homepage3";
 import Homepage3 from "./Pages/Homepage3";
 function Loader() {
   return (
     <>
-     <div class="flex justify-center items-center h-screen bg-[#333B50]">
-    <div class="flex justify-center items-center">
-        <div class="border-2 hover:bg-[#00d646] w-[80px] flex justify-center items-center h-[80px] rounded-full border-[#00d646] px-8 py-3 text-white font-bold text-4xl mb-12 md:mb-5 animate-shadow-infinite">RK</div>
-    </div>
+      <div class="flex justify-center items-center h-screen bg-[#333B50]">
+      <div class="typing-indicator">
+    <div class="typing-circle"></div>
+    <div class="typing-circle"></div>
+    <div class="typing-circle"></div>
+    <div class="typing-shadow"></div>
+    <div class="typing-shadow"></div>
+    <div class="typing-shadow"></div>
 </div>
-
-
+      </div>
     </>
   );
 }
-
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -42,7 +44,6 @@ function App() {
       // duration: 700,
       // easing: "ease-out-cubic",
       // disable: 'mobile'
-      
     });
   }, []);
 
@@ -50,7 +51,7 @@ function App() {
     setTimeout(() => {
       setLoading(false);
       AOS.init();
-    }, 3000); 
+    }, 3000);
   }, []);
 
   return (

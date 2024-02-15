@@ -1,5 +1,5 @@
 import React from "react";
-import { BsArrowLeftCircleFill, BsArrowRightCircle } from "react-icons/bs";
+import { BsArrowLeftCircleFill, BsArrowRightCircle, BsGithub } from "react-icons/bs";
 import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -49,18 +49,21 @@ function Footer() {
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
           <div className="flex gap-2">
-            <div className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-[#9E22FF] cursor-pointer rounded-full">
+            <Link to="https://www.facebook.com/profile.php?id=100038099170797&mibextid=ZbWKwL"
+              target="_blank"  className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-[#9E22FF] cursor-pointer rounded-full">
               <FaFacebook className="text-white text-[20px]" />
-            </div>
-            <div className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-[#9E22FF] cursor-pointer rounded-full">
-              <IoLogoInstagram className="text-white text-[20px]" />
-            </div>
-            <div className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-[#9E22FF] cursor-pointer rounded-full">
+            </Link>
+            <Link to="https://github.com/Rksingh55?tab=repositories"
+              target="_blank" className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-[#9E22FF] cursor-pointer rounded-full">
+              <BsGithub className="text-white text-[20px]" />
+            </Link>
+            <Link to="http://wa.me/9621671657" target="blank"className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-[#9E22FF] cursor-pointer rounded-full">
               <FaWhatsapp className="text-white text-[20px]" />
-            </div>
-            <div className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-[#9E22FF] cursor-pointer rounded-full">
+            </Link>
+            <Link   to="https://www.linkedin.com/in/rakesh-singh-154108235/"
+              class="linkedin" className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-[#9E22FF] cursor-pointer rounded-full">
               <FaLinkedin className="text-white text-[20px]" />
-            </div>
+            </Link>
           </div>
         </div>
         <div className="md:text-center ">

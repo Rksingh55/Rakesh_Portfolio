@@ -13,7 +13,7 @@ function Contact() {
           <div className="flex justify-center  items-center text-white  py-[100px]">
             <div className=" flex gap-5 ">
               <div className="flex justify-center  items-center">
-                <h1 className="text-[80px] text-[#bec785]">04</h1>
+                <h1 className="text-[80px] text-[#bec785]">05</h1>
               </div>
               <div>
                 <h1 className="text-white"> CONTACT</h1>
@@ -77,7 +77,7 @@ function Contact() {
                   <input placeholder="Email" className="px-3 py-3" />
                 </div>
                 <input placeholder="Number" className="px-3 py-3  w-full" />
-                <textarea placeholder="Messege" className="px-3 py-3  w-full" />
+                <textarea placeholder="Messege" className="px-3 py-3  w-full focus:outline-none" />
                 <button className="px-3 py-3  bg-[#00d646] text-white ">
                   Send
                 </button>

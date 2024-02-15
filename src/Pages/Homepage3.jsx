@@ -18,8 +18,8 @@ function Homepage3() {
   const Array = [
     {
       Image:
-        "https://img.freepik.com/free-photo/e-learing-distance-education-icons-interface_53876-124201.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais",
-      ProjectName: "Easyhaionline.com",
+        "./eho.jpg",
+      ProjectName: "Easyhaionline Website",
       Discription:
         " This is Education based website for selling courses and online classes for students. In this website i worked on imporent module like blogs, courses, test, assignments, payment doubt etc.",
       TechUsed:
@@ -28,7 +28,7 @@ function Homepage3() {
     },
     {
       Image:
-        "https://img.freepik.com/free-photo/add-cart-buy-now-online-commerce-graphic-concept_53876-133964.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais",
+        "./Borobazar.jpg",
       ProjectName: "Borobazar Website Clone",
       Discription:
         " This is Ecommerce  website for selling courses and online classes for students. In this website i worked on imporent module like blogs, courses, test, assignments, payment doubt etc.",
@@ -38,7 +38,7 @@ function Homepage3() {
     },
     {
       Image:
-        "https://img.freepik.com/free-psd/restaurant-landing-page-template-design_23-2149609569.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais",
+        "./grill.jpg",
       ProjectName: "Grill Veg Restaurents",
       Discription:
         " This is Education based website for selling courses and online classes for students. In this website i worked on imporent module like blogs, courses, test, assignments, payment doubt etc.",
@@ -55,24 +55,19 @@ function Homepage3() {
           <div className="parallax">
             <div class="  parallaxcontent">
               <div class="flex flex-col  justify-center items-center  h-screen">
-                <div class="max-sm:mb-[120px]">
-                  <h1  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" className="md:text-[60px] text-[50px] font-bold text-white">
+                <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" class="max-sm:mb-[120px]">
+                  <h1   className="md:text-[60px] text-[50px] font-bold text-white">
                     I<span className="text-[#00d646]">'</span>M
                   </h1>
-                  <h1  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" className="md:text-[100px] text-[70px] font-bold text-white">
+                  <h1   className="md:text-[100px] text-[70px] font-bold text-white">
                     RAKESH
                   </h1>
                   <h1  className="md:text-[100px] text-[70px] font-bold text-white">
                     SINGH<span className="text-[#00d646]">.</span>
                   </h1>
-                  <h4 data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="500" class="mt-2 text-white font-thin leading-9 tracking-widest">
+                  <h4  class="mt-2 text-white font-thin leading-9 tracking-widest">
                     UI DESIGNER & FRONTEND
                     <br />
                      WEB
@@ -85,25 +80,25 @@ function Homepage3() {
 
           {/* //socialicons */}
           <div class="icon-bar bg-[#333B50] z-[1000]  p-2 rounded-r-[25px] shadow-lg max-sm:hidden">
-            <a
-              href="https://www.facebook.com/profile.php?id=100038099170797&mibextid=ZbWKwL"
+            <Link
+              to="https://www.facebook.com/profile.php?id=100038099170797&mibextid=ZbWKwL"
               class="facebook"
               target="_blank"
             >
               <FaFacebookSquare />
-            </a>
-            <Link href="http://wa.me/9621671657" target="blank" class="twitter">
+            </Link>
+            <Link to="http://wa.me/9621671657" target="blank" class="twitter">
               <IoLogoWhatsapp />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/rakesh-singh-154108235/"
+              to="https://www.linkedin.com/in/rakesh-singh-154108235/"
               target="blank"
               class="linkedin"
             >
               <FaLinkedin />
             </Link>
             <Link
-              href="https://github.com/Rksingh55?tab=repositories"
+              to="https://github.com/Rksingh55?tab=repositories"
               class="youtube"
               target="_blank"
             >
@@ -114,14 +109,14 @@ function Homepage3() {
           <div className="flex justify-center items-center " data-aos="fade-up"
      data-aos-anchor-placement="top-bottom">
             <div className="md:w-[70%] w-[95%] m-auto absolute bg-[#333B50] md:p-[120px] p-[20px]">
-              <div className="" data-aos="fade-down-left">
+              <div className="" >
                 <div class="flex justify-center items-center">
-                  <div class="border-r-[5px] hover:bg-[#00d646] w-[80px] flex justify-center items-center h-[80px] rounded-full border-[#00d646] px-8 py-3 text-white font-bold text-4xl mb-12 md:mb-5">
+                  <div class="border-r-[5px] hover:bg-[#00d646] w-[80px] flex justify-center items-center h-[80px] rounded-full border-[#bec785] px-8 py-3 text-white font-bold text-4xl mb-12 md:mb-5">
                     RK
                   </div>
                 </div>
 
-                <h3 className="text-white font-thin tracking-[3px] leading-9">
+                <h3  className="text-white font-thin tracking-[3px] leading-9">
                   Passionate about software development, I bring one year of
                   experience in creating elegant and maintainable code. My
                   expertise includes Html, Css , Bootstrap, Tailwindcss,
@@ -131,8 +126,8 @@ function Homepage3() {
                 <div className="flex justify-center mt-[50px]">
                   <button className="border-2 hover:bg-[#00d646] hover:text-white border-[#00d646] px-10 py-3 text-white">
                     <a
-                      href="/Rakeshupdated9.pdf"
-                      download="Rakeshupdated9.pdf"
+                      href="/Rakesh Updated Resume.pdf"
+                      download="Rakesh Updated Resume.pdf"
                       className="text-decoration-none text-[#00d646] hover:text-white"
                     >
                       Download Resume
@@ -145,7 +140,7 @@ function Homepage3() {
           <div className="parallax2">
             <div className="  parallax2content ">
               <div className="flex justify-center  items-center text-white h-screen">
-                <div className="mt-[300px] flex gap-3   " data-aos="zoom-in-up">
+                <div className="mt-[300px] flex gap-3   "  data-aos="zoom-in" >
                   <div className="flex justify-center items-center">
                     <h1 className="text-[80px] text-[#bec785]">01</h1>
                   </div>
@@ -237,7 +232,7 @@ function Homepage3() {
           <div className="parallax3">
             <div className="md:h-[3400px] h-[4800px] sss ">
               <div className="flex justify-center  items-center text-white  py-[100px]">
-                <div className=" flex gap-3 " data-aos="zoom-in-up">
+                <div className=" flex gap-3 " data-aos="zoom-in">
                   <div className="flex justify-center  items-center">
                     <h1 className="text-[80px] text-[#bec785]">02</h1>
                   </div>
@@ -255,8 +250,7 @@ function Homepage3() {
                 </div>
               </div>
               {/* <div
-              data-aos="fade-up"
-     data-aos-duration="3000"  className="flex md:w-[70%] justify-center gap-2 flex-col md:flex-row
+               className="flex md:w-[70%] justify-center gap-2 flex-col md:flex-row
           m-auto"
               >
                 <div  class="h-[300px]  cursor-pointer w-[340px] m-auto bg-red-300 overflow-hidden">
@@ -280,8 +274,7 @@ function Homepage3() {
                   />
                 </div>
               </div> */}
-              <div   data-aos="fade-up"
-     data-aos-duration="3000" className="flex mt-5   max-sm:p-6 md:w-[80%] m-auto w-full flex-wrap justify-center gap-4">
+              <div data-aos="zoom-in"  className="flex mt-5   max-sm:p-6 md:w-[80%] m-auto w-full flex-wrap justify-center gap-4">
               {Array.map((value, index) => (
                 <div className="">
   <div className="service-card w-[350px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
@@ -302,11 +295,11 @@ function Homepage3() {
       <p className="text-gray-400 text-sm">
         {value?.Discription}
       </p>
-      <button className="border-2 text-[#00d646] hover:border-solid hover:border-[#00d646] border-dotted  border-[#00d646]  px-5 py-2 ">
-        <Link href={value?.UrlLink}  target="blank" className="  text-decoration-none text-[#00d646] font-bold">
+      <Link target="blank" to={value?.UrlLink} className="border-2 text-decoration-none text-[#00d646] hover:text-[#00d646] hover:border-solid hover:border-[#00d646] border-dotted  border-[#00d646]  px-5 py-2 ">
+        
           Go Live
-        </Link>
-      </button>
+      
+      </Link>
     </div>
   </div>
 </div>
@@ -316,7 +309,7 @@ function Homepage3() {
             </div>
               <div>
                 <div className="flex justify-center  items-center text-white  py-[100px]">
-                  <div className=" flex gap-3 " data-aos="zoom-in-up">
+                  <div className=" flex gap-3 " data-aos="zoom-in" >
                     <div className="flex justify-center  items-center">
                       <h1 className="text-[80px] text-[#bec785]">03</h1>
                     </div>
@@ -327,11 +320,11 @@ function Homepage3() {
                   </div>
                 </div>
                 <div className="flex md:flex-row flex-col">
-                  <div className="basis-1/2 border-r-[5px]  border-green-400 ">
+                  <div className="basis-1/2 md:border-r-[5px]  border-green-400 ">
                     <div className="flex md:flex-row flex-col max-sm:p-3">
                       <div className="basis-1/2 max-sm:hidden"></div>
                       <div className="basis-1/2 ">
-                        <div data-aos="zoom-in-left" className="md:mr-12 md:mt-[300px] flex flex-col  ">
+                        <div data-aos="zoom-in"  className="md:mr-12 md:mt-[300px] flex flex-col  ">
                           <h5 className="text-[#00d646]">
                             March 2023 - June 2023
                           </h5>
@@ -353,7 +346,7 @@ function Homepage3() {
                     </div>
                   </div>
                   <div className="basis-1/2  max-sm:p-3 ">
-                    <div data-aos="zoom-in-right" className="md:w-[40%] w-full md:ml-12 mt-12 text-start">
+                    <div  data-aos="zoom-in" className="md:w-[40%] w-full md:ml-12 mt-12 text-start">
                       <h5 className="text-[#00d646]">July 2023 - Feb 2024</h5>
                       <h4 className="text-white"> EasyhaiOnline</h4>
                       <h6 className="text-white">frontend Web Developer</h6>
@@ -371,7 +364,7 @@ function Homepage3() {
               </div>
               <div>
                 <div className="flex justify-center  items-center text-white  py-[100px]">
-                  <div className=" flex gap-3 " data-aos="zoom-in-up">
+                  <div data-aos="zoom-in" className=" flex gap-3 " >
                     <div className="flex justify-center  items-center">
                       <h1 className="text-[80px] text-[#bec785]">04</h1>
                     </div>
@@ -382,12 +375,29 @@ function Homepage3() {
                   </div>
                 </div>
                 <div className="flex md:flex-row flex-col">
-                  <div className="basis-1/2 border-r-[5px]  border-green-400 ">
+                  <div className="basis-1/2 md:border-r-[5px]  border-green-400 ">
                     <div className="flex md:flex-row flex-col max-sm:p-3">
                       <div className="basis-1/2 max-sm:hidden"></div>
                       <div className="basis-1/2 ">
-                        <div data-aos="zoom-in-left" className="md:mr-12 md:mt-[300px] flex flex-col  ">
-                          <h5 className="text-[#00d646]">2017-2019</h5>
+                        <div data-aos="zoom-in"  className="md:mr-12 md:mt-[300px] flex flex-col  ">
+                        <h5 className="text-[#00d646]">2019-2023</h5>
+                      <h4 className="text-white">B.tech</h4>
+                      <h6 className="text-white">Computer Science Engineer</h6>
+
+                      <p className="">
+                        I completed my Bachelor of Technology degree at Rajshree
+                        Institute of Management and Technology located in
+                        Bareilly. Throughout my academic journey, I delved into
+                        various facets of technology, honing my skills and
+                        knowledge in the field.
+                      </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="basis-1/2  max-sm:p-3 ">
+                    <div data-aos="zoom-in"  className="md:w-[40%] w-full md:ml-12 mt-12 text-start">
+                    <h5 className="text-[#00d646]">2017-2019</h5>
                           <h4 className="text-white">Intermediate</h4>
                           <h6 className="text-white">
                             Cooperative Inter College Gorakhpur
@@ -399,30 +409,14 @@ function Homepage3() {
                             various facets of technology, honing my skills and
                             knowledge in the field.
                           </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="basis-1/2  max-sm:p-3 ">
-                    <div data-aos="zoom-in-right" className="md:w-[40%] w-full md:ml-12 mt-12 text-start">
-                      <h5 className="text-[#00d646]">2019-2023</h5>
-                      <h4 className="text-white">B.tech</h4>
-                      <h6 className="text-white">Computer Science Engineer</h6>
-
-                      <p className="">
-                        I completed my Bachelor of Technology degree at Rajshree
-                        Institute of Management and Technology located in
-                        Bareilly. Throughout my academic journey, I delved into
-                        various facets of technology, honing my skills and
-                        knowledge in the field.
-                      </p>
+                      
                     </div>
                   </div>
                 </div>
                 <div className="flex md:flex-row flex-col">
-                  <div className="basis-1/2 border-r-[5px]  border-green-400 "></div>
+                  <div className="basis-1/2 md:border-r-[5px]  border-green-400 "></div>
                   <div className="basis-1/2  max-sm:p-3 ">
-                    <div data-aos="zoom-in-left" className="md:w-[40%] w-full md:ml-12 mt-12 text-start">
+                    <div  data-aos="zoom-in" className="md:w-[40%] w-full md:ml-12 mt-12 text-start">
                       <h5 className="text-[#00d646]">2015-2017</h5>
                       <h4 className="text-white">High School</h4>
                       <h6 className="text-white">
@@ -446,9 +440,9 @@ function Homepage3() {
           <div className="flex justify-center items-center ">
             <div className="md:w-[70%] w-[95%] max-sm:py-10 m-auto absolute bg-[#333B50] ">
               <div className="flex  justify-beteen md:p-[100px] p-[20px] md:flex-row flex-col">
-                <div data-aos="zoom-in" className="basis-1/2 text-white">
+                <div  className="basis-1/2 text-white">
                   <h3 className="max-sm:py-2">CONTACT</h3>
-                  <p className=" md:w-[80%]  w-full ">
+                  <p data-aos="zoom-in" className=" md:w-[80%]  w-full ">
                     I'M a Passionate about software development, I bring one
                     year of experience in creating elegant and maintainable
                     code. My expertise includes Html, Css , Bootstrap,
@@ -465,7 +459,7 @@ function Homepage3() {
                   </p>
                 </div>
                 <div className="basis-1/2">
-                  <form data-aos="zoom-out" className="flex gap-2 flex-col">
+                  <form data-aos="zoom-in"  className="flex gap-2 flex-col">
                     <div className="flex gap-2 md:flex-row flex-col ">
                       <input placeholder="Name" className="px-3 py-3" />
 

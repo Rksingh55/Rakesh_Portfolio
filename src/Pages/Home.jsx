@@ -17,6 +17,7 @@ import {
   BsArrowLeftCircleFill,
   BsArrowRightCircle,
   BsFillPersonFill,
+  BsGithub,
   BsYoutube,
 } from "react-icons/bs";
 import { IoLocation, IoLogoGithub, IoLogoInstagram } from "react-icons/io5";
@@ -109,7 +110,7 @@ window.onload = function() {
                   </h1>
                   <h1 >Software Engineer</h1>
                   <h1 className="font-bold text-[20px] text-black mt-2 md:text-[30px]">
-        <a href="" class="typewrite text-decoration-none text-black tracking-wider"  data-type='[ "Software Engineer", "Designer", "Developer" ]'>
+        <a to="" class="typewrite text-decoration-none text-black tracking-wider"  data-type='[ "Software Engineer", "Designer", "Developer" ]'>
           <span class="wrap"></span>
         </a>
       </h1>
@@ -235,20 +236,32 @@ window.onload = function() {
         </div>
 
         {/* //socialicons */}
-        <div class="icon-bar bg-white p-2 rounded-r-[25px] shadow-lg max-sm:hidden" >
-          <Link href="#" class="facebook">
-            <FaFacebookSquare />
-          </Link>
-          <Link href="#" class="twitter">
-            <IoLogoWhatsapp />
-          </Link>
-          <Link href="#" class="linkedin">
-            <IoLogoGithub />
-          </Link>
-          <Link href="#" class="youtube">
-            <BsYoutube />{" "}
-          </Link>
-        </div>
+        <div class="icon-bar bg-white z-[1000]  p-2 rounded-r-[25px] shadow-lg max-sm:hidden">
+            <Link
+              to="https://www.facebook.com/profile.php?id=100038099170797&mibextid=ZbWKwL"
+              class="facebook"
+              target="_blank"
+            >
+              <FaFacebookSquare />
+            </Link>
+            <Link to="http://wa.me/9621671657" target="blank" class="twitter">
+              <IoLogoWhatsapp />
+            </Link>
+            <Link
+              to="https://www.linkedin.com/in/rakesh-singh-154108235/"
+              target="blank"
+              class="linkedin"
+            >
+              <FaLinkedin />
+            </Link>
+            <Link
+              to="https://github.com/Rksingh55?tab=repositories"
+              class="youtube"
+              target="_blank"
+            >
+              <BsGithub />
+            </Link>
+          </div>
 
         {/* <div className="experties max-sm:hidden"></div> */}
         <div className=" bg-[#9E22FF] md:p-12 ">
@@ -271,18 +284,21 @@ window.onload = function() {
                   </p>
                   <div className="flex">
                     <div className="flex gap-2">
-                      <div className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-black cursor-pointer rounded-full">
+                      <Link  to="https://www.facebook.com/profile.php?id=100038099170797&mibextid=ZbWKwL"
+              target="_blank" className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-black cursor-pointer rounded-full">
                         <FaFacebook className="text-white text-[20px]" />
-                      </div>
-                      <div className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-black  cursor-pointer rounded-full">
-                        <IoLogoInstagram className="text-white text-[20px]" />
-                      </div>
-                      <div className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-black  cursor-pointer rounded-full">
-                        <FaWhatsapp className="text-white text-[20px]" />
-                      </div>
-                      <div className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-black  cursor-pointer rounded-full">
+                      </Link>
+                      <Link  to="https://github.com/Rksingh55?tab=repositories"
+              target="_blank" className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-black  cursor-pointer rounded-full">
                         <FaLinkedin className="text-white text-[20px]" />
-                      </div>
+                      </Link>
+                      <Link to="http://wa.me/9621671657" target="blank" className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-black  cursor-pointer rounded-full">
+                        <FaWhatsapp className="text-white text-[20px]" />
+                      </Link>
+                      <Link   to="https://www.linkedin.com/in/rakesh-singh-154108235/"
+              class="linkedin" className="flex justify-center items-center h-[50px] ml-2 w-[50px] bg-black  cursor-pointer rounded-full">
+                        <BsGithub className="text-white text-[20px]" />
+                      </Link>
                     </div>
                   </div>
                   <div className="flex gap-6 mt-8">
