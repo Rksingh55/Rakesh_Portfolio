@@ -63,11 +63,41 @@ function AllProjects() {
         " Html, Css , Javascript, TailwindCss, ReactJs, Firebase, Firebase Database ",
       UrlLink: "https://rk-assisments.vercel.app/",
     },
+    {
+      Image:
+        "./eho2.jpg",
+      ProjectName: "Easyhaionline website1",
+      Discription:
+        " This is Education based website for selling courses and online classes for students. In this website i worked on imporent module like blogs, courses, test, assignments, payment doubt etc.",
+      TechUsed:
+        " Html, Css , Javascript, Bootstrap, ReactJs, ReduxToolkit",
+      UrlLink: "https://www.easyhaionline.com/",
+    },
+    {
+      Image:
+        "./portfolio1.jpg",
+      ProjectName: "Portfolio Design",
+      Discription:
+        " This is simple portfolio design for show about your self like about education, skill , exprience, or project and services you povide. You can also provide your social media links, and contact number etc.",
+      TechUsed:
+        " Html, Css , Javascript, Bootstrap",
+      UrlLink: "https://rk-portfolio-weld.vercel.app/",
+    },
+    {
+      Image:
+        "./Blogtexteditor.jpg",
+      ProjectName: "Blog Texteditor Design",
+      Discription:
+        " This is Blog text editor Webpage design  for creating blogs form this page, in this u can edit all type of text editing like font style, family, color , style and u can add image or link or blogs etc. ",
+      TechUsed:
+        " Html, Css , Javascript, Bootstrap",
+      UrlLink: "https://rk-portfolio-weld.vercel.app/",
+    },
   ];
   return (
     <>
       <div className="conatctpage">
-        <div className="md:py-12 parallax3">
+        <div className=" parallax3 ">
           <div className=" sss ">
             <div className="flex justify-center  items-center text-white  py-[100px]">
               <div className=" flex gap-5 ">
@@ -80,7 +110,7 @@ function AllProjects() {
                 </div>
               </div>
             </div>
-            <div
+            {/* <div
               className="flex md:w-[75%] justify-center gap-2 flex-col md:flex-row
           m-auto"
             >
@@ -104,9 +134,9 @@ function AllProjects() {
                   src="https://img.freepik.com/free-photo/medium-shot-woman-working-computer_23-2150287666.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=sph"
                 />
               </div>
-            </div>
+            </div> */}
 
-            <div className="flex mt-5 max-sm:p-6 md:w-[80%] m-auto w-full flex-wrap justify-center gap-4">
+            <div className="flex pb-12 max-sm:p-6 md:w-[80%] m-auto w-full flex-wrap justify-center gap-4">
               {Array.map((value, index) => (
                 <div className="" key={index}>
   <div className="service-card w-[350px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
@@ -124,6 +154,7 @@ function AllProjects() {
       <p className="text-gray-400 text-sm">
         {value?.Discription}
       </p>
+    
       <Link to={value?.UrlLink} target="blank" className="text-decoration-none  border-2 text-[#00d646] hover:border-solid hover:border-[#00d646] border-dotted  border-[#00d646] hover:text-[#00d646]  px-5 py-2 ">
     Go Live
 </Link>

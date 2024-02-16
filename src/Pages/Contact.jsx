@@ -10,7 +10,7 @@ function Contact() {
     <div className="conatctpage">
       <div className="parallax3">
         <div className="md:h-[1000px] h-[1700px] sss ">
-          <div className="flex justify-center  items-center text-white  py-[100px]">
+          <div className="flex justify-center  items-center text-white  py-[80px]">
             <div className=" flex gap-5 ">
               <div className="flex justify-center  items-center">
                 <h1 className="text-[80px] text-[#bec785]">05</h1>
@@ -54,11 +54,7 @@ function Contact() {
           <div data-aos="zoom-in" className="basis-1/2 text-white">
                   <h3 className="max-sm:py-2">CONTACT</h3>
                   <p className=" md:w-[80%]  w-full ">
-                    I'M a Passionate about software development, I bring one
-                    year of experience in creating elegant and maintainable
-                    code. My expertise includes Html, Css , Bootstrap,
-                    Tailwindcss, ReactJs, Nextjs, and I am committed to staying
-                    at the forefront of technological advancements.
+                  Fill out the form for any inquiries or doubts, and feel free to send me a message. If you're pressed for time and prefer not to fill out the form, you can easily reach me by calling my contact number. Otherwise, leave an email, and I'll get back to you promptly.
                   </p>
                   <p className="text flex gap-2">
                   <TfiEmail className="mt-1"/>

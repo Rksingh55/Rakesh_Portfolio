@@ -9,7 +9,7 @@ function Latestproject() {
     <div className="conatctpage">
     <div className="parallax3">
           <div className="md:py-12 sss ">
-            <div className="flex justify-center  items-center text-white  py-[30px]">
+            <div className="flex justify-center  items-center text-white  py-[50px]">
               <div className=" flex gap-5 ">
                 <div className="flex justify-center  items-center">
                   <h1 className="text-[80px] text-[#bec785]">03</h1>
