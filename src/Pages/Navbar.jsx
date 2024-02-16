@@ -12,7 +12,7 @@ import { BsTelephone } from "react-icons/bs";
 function Navbar() {
   
   return (
-    <div className="w-full sticky top-0 z-[10] md:bg-[#333B50]  bg-black text-white shadow-md ">
+    <div className="w-full  md:bg-[#333B50]  bg-black text-white shadow-md ">
       {/* <div className="bg-blue-300 underline  cursor-pointer flex items-center justify-center text-white p-2">Checkout My new website</div> */}
       <div className="w-full max-sm:px-5 m-auto md:w-[60%]   ">
         <div className="flex justify-between items-center max-sm:py-5  md:p-3    ">
