@@ -7,8 +7,7 @@ import { Link } from "react-router-dom";
 function AllProjects() {
   const Array = [
     {
-      Image:
-        "./eho.jpg",
+      Image: "./eho.jpg",
       ProjectName: "Easyhaionline Website",
       Discription:
         " This is Education based website for selling courses and online classes for students. In this website i worked on imporent module like blogs, courses, test, assignments, payment doubt etc.",
@@ -17,8 +16,7 @@ function AllProjects() {
       UrlLink: "https://test-eho2.vercel.app/",
     },
     {
-      Image:
-        "./Borobazar.jpg",
+      Image: "./Borobazar.jpg",
       ProjectName: "Borobazar Website Clone",
       Discription:
         " This is Ecommerce  website for selling courses and online classes for students. In this website i worked on imporent module like blogs, courses, test, assignments, payment doubt etc.",
@@ -27,8 +25,7 @@ function AllProjects() {
       UrlLink: "https://borobazar-ecommerce.vercel.app/",
     },
     {
-      Image:
-        "./softweb.jpg",
+      Image: "./softweb.jpg",
       ProjectName: "Softweb tech Website",
       Discription:
         " This is Education based website for selling courses and online classes for students. In this website i worked on imporent module like blogs, courses, test, assignments, payment doubt etc.",
@@ -36,8 +33,7 @@ function AllProjects() {
       UrlLink: "https://softweb-tech.vercel.app/",
     },
     {
-      Image:
-        "./freshvege.jpg",
+      Image: "./freshvege.jpg",
       ProjectName: "Freshvegie Ecommerce Website",
       Discription:
         " This is Education based website for selling courses and online classes for students. In this website i worked on imporent module like blogs, courses, test, assignments, payment doubt etc.",
@@ -45,8 +41,7 @@ function AllProjects() {
       UrlLink: "https://rk-freshveg.vercel.app/",
     },
     {
-      Image:
-        "./grill.jpg",
+      Image: "./grill.jpg",
       ProjectName: "Grill Veg Restaurents Web",
       Discription:
         " This is Education based website for selling courses and online classes for students. In this website i worked on imporent module like blogs, courses, test, assignments, payment doubt etc.",
@@ -54,8 +49,7 @@ function AllProjects() {
       UrlLink: "https://grilli-veg.vercel.app/",
     },
     {
-      Image:
-        "./assisments.jpg",
+      Image: "./assisments.jpg",
       ProjectName: "Assisments blogging Website",
       Discription:
         " This is Education based website for selling courses and online classes for students. In this website i worked on imporent module like blogs, courses, test, assignments, payment doubt etc.",
@@ -64,33 +58,27 @@ function AllProjects() {
       UrlLink: "https://rk-assisments.vercel.app/",
     },
     {
-      Image:
-        "./eho2.jpg",
+      Image: "./eho2.jpg",
       ProjectName: "Easyhaionline website1",
       Discription:
         " This is Education based website for selling courses and online classes for students. In this website i worked on imporent module like blogs, courses, test, assignments, payment doubt etc.",
-      TechUsed:
-        " Html, Css , Javascript, Bootstrap, ReactJs, ReduxToolkit",
+      TechUsed: " Html, Css , Javascript, Bootstrap, ReactJs, ReduxToolkit",
       UrlLink: "https://www.easyhaionline.com/",
     },
     {
-      Image:
-        "./portfolio1.jpg",
+      Image: "./portfolio1.jpg",
       ProjectName: "Portfolio Design",
       Discription:
         " This is simple portfolio design for show about your self like about education, skill , exprience, or project and services you povide. You can also provide your social media links, and contact number etc.",
-      TechUsed:
-        " Html, Css , Javascript, Bootstrap",
+      TechUsed: " Html, Css , Javascript, Bootstrap",
       UrlLink: "https://rk-portfolio-weld.vercel.app/",
     },
     {
-      Image:
-        "./Blogtexteditor.jpg",
+      Image: "./Blogtexteditor.jpg",
       ProjectName: "Blog Texteditor Design",
       Discription:
         " This is Blog text editor Webpage design  for creating blogs form this page, in this u can edit all type of text editing like font style, family, color , style and u can add image or link or blogs etc. ",
-      TechUsed:
-        " Html, Css , Javascript, Bootstrap",
+      TechUsed: " Html, Css , Javascript, Bootstrap",
       UrlLink: "https://rk-portfolio-weld.vercel.app/",
     },
   ];
@@ -139,31 +127,31 @@ function AllProjects() {
             <div className="flex pb-12 max-sm:p-6 md:w-[80%] m-auto w-full flex-wrap justify-center gap-4">
               {Array.map((value, index) => (
                 <div className="" key={index}>
-  <div className="service-card w-[350px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
-    
-    <div
-      className="bg-cover bg-center w-full h-[200px] animate-zoom-infinite"
-      style={{
-        backgroundImage: `url(${value?.Image})`,
-      }}
-    ></div>
-    <div className="bg-white p-6">
-      <p className="font-bold text-2xl group-hover:text-black text-black">
-        {value?.ProjectName}
-      </p>
-      <p className="text-gray-400 text-sm">
-        {value?.Discription}
-      </p>
-    
-      <Link to={value?.UrlLink} target="blank" className="text-decoration-none  border-2 text-[#00d646] hover:border-solid hover:border-[#00d646] border-dotted  border-[#00d646] hover:text-[#00d646]  px-5 py-2 ">
-    Go Live
-</Link>
+                  <div className="service-card w-[350px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
+                    <div
+                      className="bg-cover bg-center w-full h-[200px] animate-zoom-infinite"
+                      style={{
+                        backgroundImage: `url(${value?.Image})`,
+                      }}
+                    ></div>
+                    <div className="bg-white p-6">
+                      <p className="font-bold text-2xl group-hover:text-black text-black">
+                        {value?.ProjectName}
+                      </p>
+                      <p className="text-gray-400 text-sm">
+                        {value?.Discription}
+                      </p>
 
-    </div>
-  </div>
-</div>
-
-
+                      <Link
+                        to={value?.UrlLink}
+                        target="blank"
+                        className="text-decoration-none  border-2 text-[#00d646] hover:border-solid hover:border-[#00d646] border-dotted  border-[#00d646] hover:text-[#00d646]  px-5 py-2 "
+                      >
+                        Go Live
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               ))}
             </div>
           </div>
@@ -179,5 +167,3 @@ function AllProjects() {
 }
 
 export default AllProjects;
-
-

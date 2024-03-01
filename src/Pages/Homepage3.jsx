@@ -89,9 +89,7 @@ function Homepage3() {
                     SINGH<span className="text-[#00d646]">.</span>
                   </h1>
                   <h4 class="mt-2 text-white font-thin leading-9 tracking-widest">
-                    UI DESIGNER & FRONTEND
-                    <br />
-                    WEB DEVELOPER
+                    DESIGNER & DEVELOPER
                   </h4>
                 </div>
               </div>
@@ -131,31 +129,28 @@ function Homepage3() {
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
           >
-            <div className="md:w-[70%] w-[95%] m-auto absolute bg-[#333B50] md:p-[80px] p-[20px]">
+            <div className="md:w-[70%] w-[95%] m-auto absolute bg-[#333B50] md:p-[40px] p-[0px]">
               <div className="">
-                <div class="flex justify-center items-center">
+                {/* <div class="flex justify-center items-center">
                   <div class="border-r-[5px] hover:bg-[#00d646] w-[80px] flex justify-center items-center h-[80px] rounded-full border-[#bec785] px-8 py-3 text-white font-bold text-4xl mb-12 md:mb-5">
                     RK
                   </div>
-                </div>
+                </div> */}
 
-                <h3 className="text-white font-thin tracking-[3px] leading-9">
-                  Passionate about software development, I bring one year of
-                  experience in creating elegant and maintainable code. My
-                  expertise includes Html, Css , Bootstrap, Tailwindcss,
-                  ReactJs, Nextjs, and I am committed to staying at the
-                  forefront of technological advancements.
-                </h3>
+                <h4 className="text-white font-thin  font-thin text-justify">
+                 
+<q>Passionate about software engineering and design, I bring over a year of hands-on experience in the dynamic realm of software development. Throughout my journey, I have dedicated myself to crafting elegant, efficient, and maintainable code that not only meets but exceeds client expectations.
+My expertise encompasses a wide array of technologies and frameworks, including HTML, CSS, JS, Bootstrap, and Tailwind CSS for creating visually stunning and responsive user interfaces. I am adept at harnessing the power of these tools to breathe life into design concepts, ensuring seamless user experiences across various devices and platforms.<br/>
+Furthermore, my proficiency in React.js and Next.js, NodeJs, ExpressJs, Mongodb empowers me to build robust and scalable web applications that push the boundaries of innovation. Whether it's crafting interactive user interfaces or architecting complex frontend systems, I thrive on the challenges that come with pushing the envelope of what's possible in modern web development.</q>
+                </h4>
                 <div className="flex justify-center mt-[50px]">
-                  <button className="border-2 hover:bg-[#00d646] hover:text-white border-[#00d646] px-10 py-3 text-white">
                     <a
                       href="/Rakesh Updated Resume.pdf"
                       download="Rakesh Updated Resume.pdf"
-                      className="text-decoration-none text-[#00d646] hover:text-white"
+                      className="text-decoration-none text-[#00d646] border-2 hover:bg-[#00d646] hover:text-white border-[#00d646] px-10 py-3 text-white"
                     >
                       Download Resume
                     </a>
-                  </button>
                 </div>
               </div>
             </div>

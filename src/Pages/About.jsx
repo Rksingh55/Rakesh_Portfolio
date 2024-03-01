@@ -1,26 +1,18 @@
 import React from "react";
-import { BsAlarmFill } from "react-icons/bs";
-import { GoCodeReview } from "react-icons/go";
-import Codingimg from "../Images/codingimg2.png";
-
-import { FcPicture, FcSmartphoneTablet } from "react-icons/fc";
-import Header from "./Header";
 import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { Link } from "react-router-dom";
-function Latestproject() {
+function About() {
   return (
     <div className="bg-white ">
-
-      <div
-        
-        className="mt-4 max-sm:bg-white bg-white rounded-[10px] md:w-[80%] m-auto w-full "
-      >
+      <div className="mt-4 max-sm:bg-white bg-white rounded-[10px] md:w-[80%] m-auto w-full ">
         <div className="flex md:flex-row flex-col ">
-          <div className="basis-1/2 flex item-center justify-center " data-aos="fade-right">
+          <div
+            className="basis-1/2 flex item-center justify-center "
+            data-aos="fade-right"
+          >
             <div className=" ">
-            <div className="h-[600px] w-[500px] about1   ">
-                </div>
+              <div className="h-[600px] w-[500px] about1   "></div>
             </div>
           </div>
           <div className="basis-1/2" data-aos="fade-left">
@@ -32,7 +24,21 @@ function Latestproject() {
                 Software Engineer
               </h1>
               <p className="md:w-[80%] w-full text-justify ">
-              With one year of experience in software development, I am dedicated to crafting elegant and maintainable code. My skill set encompasses HTML, CSS, Bootstrap, Tailwind CSS, ReactJS, and Next.js. I am deeply passionate about staying abreast of technological advancements and leveraging them to enhance my expertise continually. In my work, I prioritize creating intuitive and efficient user interfaces while ensuring code quality and scalability. I thrive in collaborative environments, where I can contribute my knowledge and learn from others to deliver exceptional results. My commitment to excellence drives me to seek innovative solutions to complex problems, always striving for optimal performance and usability in every project. With a solid foundation in front-end development and a keen interest in emerging technologies, I am poised to make meaningful contributions to any team or project.
+                With one year of experience in software development, I am
+                dedicated to crafting elegant and maintainable code. My skill
+                set encompasses HTML, CSS, Bootstrap, Tailwind CSS, ReactJS, and
+                Next.js. I am deeply passionate about staying abreast of
+                technological advancements and leveraging them to enhance my
+                expertise continually. In my work, I prioritize creating
+                intuitive and efficient user interfaces while ensuring code
+                quality and scalability. I thrive in collaborative environments,
+                where I can contribute my knowledge and learn from others to
+                deliver exceptional results. My commitment to excellence drives
+                me to seek innovative solutions to complex problems, always
+                striving for optimal performance and usability in every project.
+                With a solid foundation in front-end development and a keen
+                interest in emerging technologies, I am poised to make
+                meaningful contributions to any team or project.
               </p>
               <div className="flex">
                 <div className="flex gap-2">
@@ -265,7 +271,7 @@ function Latestproject() {
           </div>
           <div className="flex gap-4 md:p-3">
             <div className=" md:basis-[30%] max-sm:hidden "></div>
-            <div className="md:basis-[70%] w-full " data-aos="zoom-in-left"> 
+            <div className="md:basis-[70%] w-full " data-aos="zoom-in-left">
               <div className="flex gap-2 md:flex-row flex-col">
                 <div className="bg-red-400 text-white md:w-[120px] md:h-[100px] w-[100px] h-[100px]  rounded-full ">
                   <div className="flex justify-center items-center font-bold w-[100px] h-[100px] ">
@@ -360,12 +366,11 @@ function Latestproject() {
                     Rajshree Institute of Management and Technologie Bareilly
                   </h2>
                   <p class="text-black ">
-                  I completed my Bachelor of Technology degree at Rajshree Institute of Management and Technology located in Bareilly. Throughout my academic journey, I delved into various facets of technology, honing my skills and knowledge in the field.
-
-
+                    I completed my Bachelor of Technology degree at Rajshree
+                    Institute of Management and Technology located in Bareilly.
+                    Throughout my academic journey, I delved into various facets
+                    of technology, honing my skills and knowledge in the field.
                   </p>
-
-                 
                 </div>
               </div>
             </div>
@@ -377,20 +382,19 @@ function Latestproject() {
               <div class="group z-[1] flex md:flex-row flex-col justify-start items-start gap-2 w-full h-fit duration-500 relative rounded-lg p-4  border-b-[8px] border-blue-500 hover:border-red-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer">
                 <div className="bg-red-400 p-10  rounded-md mr-2 h-full ">
                   <div className="bg-red-400  flex justify-center items-center font-bold ">
-12Th                  </div>
+                    12Th{" "}
+                  </div>
                 </div>
                 <div class="relative z-10">
                   <h2 class="text-2xl font-bold mb-2 text-black">
-                  Cooperative Inter College Gorakhpur
-
+                    Cooperative Inter College Gorakhpur
                   </h2>
                   <p class="text-black ">
-                  I completed my Intermediate from Cooperative Inter college which located in Gorakhpur UttarPardesh. Throughout my academic journey, I delved into various facets of technology, honing my skills and knowledge in the field.
-
-
+                    I completed my Intermediate from Cooperative Inter college
+                    which located in Gorakhpur UttarPardesh. Throughout my
+                    academic journey, I delved into various facets of
+                    technology, honing my skills and knowledge in the field.
                   </p>
-
-                 
                 </div>
               </div>
             </div>
@@ -408,7 +412,10 @@ function Latestproject() {
                     Ramjatan Inter College Gorakhpur
                   </h2>
                   <p class="text-black line-clamp-4">
-                  I completed my High School from Ramjatan Inter college which located in Gorakhpur UttarPardesh. Throughout my academic journey, I delved into various facets of technology, honing my skills and knowledge in the field.
+                    I completed my High School from Ramjatan Inter college which
+                    located in Gorakhpur UttarPardesh. Throughout my academic
+                    journey, I delved into various facets of technology, honing
+                    my skills and knowledge in the field.
                   </p>
 
                   <Link
@@ -432,22 +439,23 @@ function Latestproject() {
             <h1 className="heading font-bold">Certification</h1>
             <h5>My Professional certification</h5>
           </div>
-          <div className="flex gap-4 p-3  md:flex-row flex-col" data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom">
+          <div
+            className="flex gap-4 p-3  md:flex-row flex-col"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
             <div class="group z-[1] flex flex-col justify-start items-start gap-2 w-full h-fit duration-500 relative rounded-lg p-4  border-b-[8px] border-blue-500 hover:border-red-500 hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer">
               <div class="relative z-10">
                 <h2 class="text-xl font-bold mb-2 text-black">
                   JavaFullstack Trainning
                 </h2>
-                <h6 class=" font-bold mb-2 text-black">
-                  Ducat India
-                </h6>
+                <h6 class=" font-bold mb-2 text-black">Ducat India</h6>
                 <p class="text-black line-clamp-4">
-                I completed an intensive Java Fullstack Training program at Ducat India, which equipped me with a comprehensive skill set in both frontend and backend web development using Java technologies.
+                  I completed an intensive Java Fullstack Training program at
+                  Ducat India, which equipped me with a comprehensive skill set
+                  in both frontend and backend web development using Java
+                  technologies.
                 </p>
-
-
-
                 <Link
                   target="blank"
                   to="https://test-eho2.vercel.app/"
@@ -460,13 +468,15 @@ function Latestproject() {
             <div class="group z-[1] flex flex-col justify-start items-start gap-2 w-full h-fit duration-500 relative rounded-lg p-4  border-b-[8px] border-blue-500 hover:border-red-500hover:-translate-y-2 hover:shadow-xl shadow-gray-800 cursor-pointer">
               <div class="relative z-10">
                 <h2 class="text-xl font-bold mb-2 text-black">
-                  Website development Bootcamp 
+                  Website development Bootcamp
                 </h2>
-                <h6>
-                  Udemy
-                </h6>
+                <h6>Udemy</h6>
                 <p class="text-black line-clamp-4">
-                I successfully completed a comprehensive Website Development Bootcamp on the Udemy platform. This intensive program provided me with a thorough understanding of various aspects of web development, empowering me with the skills to create dynamic and engaging websites.
+                  I successfully completed a comprehensive Website Development
+                  Bootcamp on the Udemy platform. This intensive program
+                  provided me with a thorough understanding of various aspects
+                  of web development, empowering me with the skills to create
+                  dynamic and engaging websites.
                 </p>
 
                 <Link
@@ -483,11 +493,14 @@ function Latestproject() {
                 <h2 class="text-2xl font-bold mb-2 text-black">
                   Python Summer Trainning
                 </h2>
-                <h6>
-                  NIELIT
-                </h6>
+                <h6>NIELIT</h6>
                 <p class="text-black line-clamp-4">
-                I successfully completed a comprehensive Python summer training program offered by the National Institute of Electronics & Information Technology (NIELIT). This intensive program provided me with a deep understanding of Python programming language and its diverse applications in the field of technology.
+                  I successfully completed a comprehensive Python summer
+                  training program offered by the National Institute of
+                  Electronics & Information Technology (NIELIT). This intensive
+                  program provided me with a deep understanding of Python
+                  programming language and its diverse applications in the field
+                  of technology.
                 </p>
 
                 <Link
@@ -504,11 +517,10 @@ function Latestproject() {
           </div>
         </div>
       </div>
-
       <br />
       <br />
     </div>
   );
 }
 
-export default Latestproject;
+export default About;
