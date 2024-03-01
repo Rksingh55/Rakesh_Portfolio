@@ -4,7 +4,7 @@ import contact from "../Images/conatct.png";
 import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { TfiEmail } from "react-icons/tfi";
-import { BsTelephone } from "react-icons/bs";
+import { BsBehance, BsTelephone } from "react-icons/bs";
 function Contact() {
   return (
     <div className="conatctpage">
@@ -25,21 +25,21 @@ function Contact() {
             className="flex md:w-[70%] justify-center gap-2 flex-col md:flex-row
           m-auto"
           >
-            <div class="h-[300px] w-[340px] m-auto bg-red-300 overflow-hidden">
+            <div class="h-[300px] w-[340px] m-auto overflow-hidden">
               <img
                 class="h-[300px] w-[340px] object-cover animate-zoom-infinite"
                 src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041845.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais"
                 alt="Zooming Image"
               />
             </div>
-            <div class="h-[300px] w-[340px] m-auto bg-red-300 overflow-hidden">
+            <div class="h-[300px] w-[340px] m-auto overflow-hidden">
               <img
                 class="h-[300px] w-[340px] object-cover animate-zoom-infinite"
                 src="https://img.freepik.com/free-photo/businesswoman-seminar-drawing-graph_53876-101891.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais"
                 alt="Zooming Image"
               />
             </div>
-            <div class="h-[300px] w-[340px] m-auto bg-red-300 overflow-hidden">
+            <div class="h-[300px] w-[340px] m-auto overflow-hidden">
               <img
                 class="h-[300px] w-[340px] object-cover animate-zoom-infinite"
                 src="https://img.freepik.com/free-vector/internet-things-smart-wrist-multimedia-watch-gadget-hand_1284-10935.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais"
@@ -88,10 +88,10 @@ function Contact() {
             <div className="flex gap-3">
               <div className="flex justify-center items-center  cursor-pointer rounded-full">
                 <a
-                  href="https://www.facebook.com/profile.php?id=100038099170797&mibextid=ZbWKwL"
+                  href="https://www.behance.net/rakeshsingh131"
                   target="blank"
                 >
-                  <FaFacebook className="text-white text-[30px]" />
+                  <BsBehance className="text-white text-[30px]" />
                 </a>
               </div>
               <div className="flex justify-center items-center  cursor-pointer rounded-full">

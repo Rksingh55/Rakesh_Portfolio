@@ -19,6 +19,7 @@ import "aos/dist/aos.css";
 import Aos from "aos";
 import Home2 from "./Pages/Homepage3";
 import Homepage3 from "./Pages/Homepage3";
+import Login from "./Pages/Login";
 function Loader() {
   return (
     <>
@@ -71,6 +72,8 @@ function App() {
             <Route path="/project" element={<AllProjects />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/login" element={<Login />} />
+
             <Route path="*" element={<Notfoundpage />} />
           </Routes>
           {/* <Footer /> */}

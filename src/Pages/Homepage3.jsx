@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import { IoLogoGithub, IoLogoInstagram, IoLogoWhatsapp } from "react-icons/io5";
 import Topover from "./topover";
-import { BsGithub, BsTelephone, BsYoutube } from "react-icons/bs";
+import { BsBehance, BsGithub, BsTelephone, BsYoutube } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { FcRight } from "react-icons/fc";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
@@ -101,11 +101,11 @@ function Homepage3() {
           {/* //socialicons */}
           <div class="icon-bar bg-[#333B50] z-[1000]  p-2 rounded-r-[25px] shadow-lg max-sm:hidden">
             <Link
-              to="https://www.facebook.com/profile.php?id=100038099170797&mibextid=ZbWKwL"
+              to="https://www.behance.net/rakeshsingh131"
               class="facebook"
               target="_blank"
             >
-              <FaFacebookSquare />
+              <BsBehance />
             </Link>
             <Link to="http://wa.me/9621671657" target="blank" class="twitter">
               <IoLogoWhatsapp />
@@ -600,12 +600,12 @@ function Homepage3() {
               >
                 <div className="flex gap-3">
                   <div className="flex justify-center items-center  cursor-pointer rounded-full">
-                    <a
-                      href="https://www.facebook.com/profile.php?id=100038099170797&mibextid=ZbWKwL"
-                      target="blank"
-                    >
-                      <FaFacebook className="text-white text-[30px]" />
-                    </a>
+                  <a
+                  href="https://www.behance.net/rakeshsingh131"
+                  target="blank"
+                >
+                  <BsBehance className="text-white text-[30px]" />
+                </a>
                   </div>
                   <div className="flex justify-center items-center  cursor-pointer rounded-full">
                     <a
