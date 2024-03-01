@@ -46,20 +46,22 @@ function Homepage3() {
 
   const Array2 = [
     {
-      Image: "https://img.freepik.com/free-photo/programming-background-collage_23-2149901770.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais",
+      Image:
+        "https://img.freepik.com/free-photo/programming-background-collage_23-2149901770.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais",
       ProjectName: "WebPage Design",
       Discription:
         "Welcome to our premier web design service! We specialize in crafting stunning, user-friendly websites tailored to your unique needs. From sleek portfolios to robust e-commerce platforms, we blend creativity with functionality to ensure your online presence stands out. Our team of skilled designers and developers works closely with you to bring your vision to life, emphasizing responsive design for seamless user experiences across devices.  Whether you're a small business or a large corporation. ",
-     
     },
     {
-      Image: "https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150104516.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais",
+      Image:
+        "https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150104516.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais",
       ProjectName: "UI/UX Design",
       Discription:
         "Welcome to our cutting-edge UI/UX design service! We specialize in crafting visually stunning and intuitively navigable digital experiences that captivate users from the moment they land on your site. Our team of dedicated designers meticulously combines aesthetics with functionality to create seamless interactions that leave a lasting impression. From wireframing to prototyping, we prioritize user-centric design principles to ensure every click, swipe, and scroll is effortless and engaging. ",
     },
     {
-      Image: "https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais",
+      Image:
+        "https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?size=626&ext=jpg&uid=R136266302&ga=GA1.1.1882344098.1687350271&semt=ais",
       ProjectName: "Website Development",
       Discription:
         " Welcome to our website development service, where we transform your digital dreams into reality! Our expert team specializes in crafting custom websites that not only look stunning but also perform seamlessly across all devices. From sleek landing pages to complex e-commerce platforms, we have the skills and expertise to bring your vision to life. We prioritize clean code, fast loading times, and user-friendly interfaces to ensure an exceptional browsing experience for your visitors. ",
@@ -129,7 +131,7 @@ function Homepage3() {
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
           >
-            <div className="md:w-[70%] w-[95%] m-auto absolute bg-[#333B50] md:p-[40px] p-[0px]">
+            <div className="md:w-[70%] w-[95%] m-auto absolute bg-[#333B50] md:p-[40px] p-[20px]">
               <div className="">
                 {/* <div class="flex justify-center items-center">
                   <div class="border-r-[5px] hover:bg-[#00d646] w-[80px] flex justify-center items-center h-[80px] rounded-full border-[#bec785] px-8 py-3 text-white font-bold text-4xl mb-12 md:mb-5">
@@ -137,20 +139,40 @@ function Homepage3() {
                   </div>
                 </div> */}
 
-                <h4 className="text-white font-thin  font-thin text-justify">
-                 
-<q>Passionate about software engineering and design, I bring over a year of hands-on experience in the dynamic realm of software development. Throughout my journey, I have dedicated myself to crafting elegant, efficient, and maintainable code that not only meets but exceeds client expectations.
-My expertise encompasses a wide array of technologies and frameworks, including HTML, CSS, JS, Bootstrap, and Tailwind CSS for creating visually stunning and responsive user interfaces. I am adept at harnessing the power of these tools to breathe life into design concepts, ensuring seamless user experiences across various devices and platforms.<br/>
-Furthermore, my proficiency in React.js and Next.js, NodeJs, ExpressJs, Mongodb empowers me to build robust and scalable web applications that push the boundaries of innovation. Whether it's crafting interactive user interfaces or architecting complex frontend systems, I thrive on the challenges that come with pushing the envelope of what's possible in modern web development.</q>
+                <h4 className="text-white font-thin  font-thin md:text-justify">
+                  <q>
+                    Passionate about software engineering and design, I bring
+                    over a year of hands-on experience in the dynamic realm of
+                    software development. Throughout my journey, I have
+                    dedicated myself to crafting elegant, efficient, and
+                    maintainable code that not only meets but exceeds client
+                    expectations. My expertise encompasses a wide array of
+                    technologies and frameworks, including HTML, CSS, JS,
+                    Bootstrap, and Tailwind CSS for creating visually stunning
+                    and responsive user interfaces. I am adept at harnessing the
+                    power of these tools to breathe life into design concepts,
+                    ensuring seamless user experiences across various devices
+                    and platforms.
+                  </q>
+                  <br />
+                  <h4 className="text-white font-thin  font-thin md:text-justify max-sm:hidden">
+                    Furthermore, my proficiency in React.js and Next.js, NodeJs,
+                    ExpressJs, Mongodb empowers me to build robust and scalable
+                    web applications that push the boundaries of innovation.
+                    Whether it's crafting interactive user interfaces or
+                    architecting complex frontend systems, I thrive on the
+                    challenges that come with pushing the envelope of what's
+                    possible in modern web development.
+                  </h4>
                 </h4>
                 <div className="flex justify-center mt-[50px]">
-                    <a
-                      href="/Rakesh Updated Resume.pdf"
-                      download="Rakesh Updated Resume.pdf"
-                      className="text-decoration-none text-[#00d646] border-2 hover:bg-[#00d646] hover:text-white border-[#00d646] px-10 py-3 text-white"
-                    >
-                      Download Resume
-                    </a>
+                  <a
+                    href="/Rakesh Updated Resume.pdf"
+                    download="Rakesh Updated Resume.pdf"
+                    className="text-decoration-none text-[#00d646] border-2 hover:bg-[#00d646] hover:text-white border-[#00d646] px-10 py-3 text-white"
+                  >
+                    Download Resume
+                  </a>
                 </div>
               </div>
             </div>
@@ -316,7 +338,7 @@ Furthermore, my proficiency in React.js and Next.js, NodeJs, ExpressJs, Mongodb 
                   </div>
                 </div>
               </div>
-             
+
               <div
                 data-aos="zoom-in"
                 className="flex mt-5   max-sm:p-6 md:w-[80%] m-auto w-full flex-wrap justify-center gap-4"
@@ -497,59 +519,58 @@ Furthermore, my proficiency in React.js and Next.js, NodeJs, ExpressJs, Mongodb 
               </div>
 
               <div>
-              <div className="flex justify-center  items-center text-white  py-[100px]">
-                <div className=" flex gap-3 " data-aos="zoom-in">
-                  <div className="flex justify-center  items-center">
-                    <h1 className="text-[80px] text-[#bec785]">05</h1>
-                  </div>
-                  <div>
-                    <h1 className="text-white"> SERVICES</h1>
-                    <h3>WHAT SERVICE WE PROVIDE</h3>
-                    <Link
-                      to="/service"
-                      className="tracking-widest text-[#bec785] text-decoration-none font-semibold flex gap-1"
-                    >
-                      See All
-                      <MdKeyboardDoubleArrowRight className="mt-1" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div
-                data-aos="zoom-in"
-                className="flex mt-5   max-sm:p-6 md:w-[80%] m-auto w-full flex-wrap justify-center gap-4"
-              >
-                {Array2.map((value, index) => (
-                  <div className="">
-                    <div className="service-card w-[350px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
-                      <div
-                        className="bg-cover bg-center w-full h-[200px] animate-zoom-infinite"
-                        style={{
-                          backgroundImage: `url(${value?.Image})`,
-                        }}
-                      ></div>
-                      <div className="bg-white p-6">
-                        <p className="font-bold text-2xl group-hover:text-black text-black">
-                          {value?.ProjectName}
-                        </p>
-                        <p className="text-gray-400 text-sm ">
-                          {value?.Discription}
-                        </p>
-                        <Link
-                          target="blank"
-                          to="./service"
-                          className="border-2 font-semibold text-decoration-none text-[#00d646] hover:text-white border-solid hover:bg-[#00d646] border-[#00d646]  px-5 py-2 "
-                        >
-                          Explore
-                        </Link>
-                      </div>
+                <div className="flex justify-center  items-center text-white  py-[100px]">
+                  <div className=" flex gap-3 " data-aos="zoom-in">
+                    <div className="flex justify-center  items-center">
+                      <h1 className="text-[80px] text-[#bec785]">05</h1>
+                    </div>
+                    <div>
+                      <h1 className="text-white"> SERVICES</h1>
+                      <h3>WHAT SERVICE WE PROVIDE</h3>
+                      <Link
+                        to="/service"
+                        className="tracking-widest text-[#bec785] text-decoration-none font-semibold flex gap-1"
+                      >
+                        See All
+                        <MdKeyboardDoubleArrowRight className="mt-1" />
+                      </Link>
                     </div>
                   </div>
-                ))}
-              </div>
+                </div>
+                <div
+                  data-aos="zoom-in"
+                  className="flex mt-5   max-sm:p-6 md:w-[80%] m-auto w-full flex-wrap justify-center gap-4"
+                >
+                  {Array2.map((value, index) => (
+                    <div className="">
+                      <div className="service-card w-[350px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
+                        <div
+                          className="bg-cover bg-center w-full h-[200px] animate-zoom-infinite"
+                          style={{
+                            backgroundImage: `url(${value?.Image})`,
+                          }}
+                        ></div>
+                        <div className="bg-white p-6">
+                          <p className="font-bold text-2xl group-hover:text-black text-black">
+                            {value?.ProjectName}
+                          </p>
+                          <p className="text-gray-400 text-sm ">
+                            {value?.Discription}
+                          </p>
+                          <Link
+                            target="blank"
+                            to="./service"
+                            className="border-2 font-semibold text-decoration-none text-[#00d646] hover:text-white border-solid hover:bg-[#00d646] border-[#00d646]  px-5 py-2 "
+                          >
+                            Explore
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
-           
           </div>
 
           {/* //contact */}
@@ -559,7 +580,11 @@ Furthermore, my proficiency in React.js and Next.js, NodeJs, ExpressJs, Mongodb 
                 <div className="basis-1/2 text-white">
                   <h3 className="max-sm:py-2">CONTACT</h3>
                   <p data-aos="zoom-in" className=" md:w-[80%]  w-full ">
-                  Fill out the form for any inquiries or doubts, and feel free to send me a message. If you're pressed for time and prefer not to fill out the form, you can easily reach me by calling my contact number. Otherwise, leave an email, and I'll get back to you promptly.
+                    Fill out the form for any inquiries or doubts, and feel free
+                    to send me a message. If you're pressed for time and prefer
+                    not to fill out the form, you can easily reach me by calling
+                    my contact number. Otherwise, leave an email, and I'll get
+                    back to you promptly.
                   </p>
                   <p className="text flex gap-2">
                     <TfiEmail className="mt-1" />
@@ -595,12 +620,12 @@ Furthermore, my proficiency in React.js and Next.js, NodeJs, ExpressJs, Mongodb 
               >
                 <div className="flex gap-3">
                   <div className="flex justify-center items-center  cursor-pointer rounded-full">
-                  <a
-                  href="https://www.behance.net/rakeshsingh131"
-                  target="blank"
-                >
-                  <BsBehance className="text-white text-[30px]" />
-                </a>
+                    <a
+                      href="https://www.behance.net/rakeshsingh131"
+                      target="blank"
+                    >
+                      <BsBehance className="text-white text-[30px]" />
+                    </a>
                   </div>
                   <div className="flex justify-center items-center  cursor-pointer rounded-full">
                     <a
