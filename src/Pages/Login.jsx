@@ -3,8 +3,8 @@ import React from "react";
 function Login() {
   return (
     <div className="flex login ]">
-      <div className="w-[60%] max-sm:hidden  h-screen ">
-        <img className="w-full h-full" src="https://img.freepik.com/free-photo/black-smooth-textured-paper-background_53876-124453.jpg?t=st=1709286859~exp=1709290459~hmac=c41d7a14e538e43c59c11ab615c01fee897caf9924af4e7cffc8e57371234b02&w=996"/>
+      <div className="w-[60%] max-sm:hidden   ">
+        <img className="w-full h-screen  object-cover" src="https://images.unsplash.com/photo-1630476387426-52c6e0b14e50?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
       </div>
       <div className="md:w-[40%] w-full bg-[#333B50] ">
         <div className="flex justify-center item-center">

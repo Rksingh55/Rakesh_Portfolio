@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div className="w-full   md:bg-[#333B50]  bg-black text-white shadow-md ">
       {/* <div className="bg-blue-300 underline  cursor-pointer flex items-center justify-center text-white p-2">Checkout My new website</div> */}
-      <div className="w-full max-sm:px-5 m-auto md:w-[60%]   ">
+      <div className="w-full max-sm:px-5 m-auto md:w-[73%]   ">
         <div className="flex justify-between items-center max-sm:py-5  md:p-3    ">
           <div className="font-bold">
             {/* <img src={Logo} className="w-[30px]   md:w-[70px] " /> */}
@@ -52,38 +52,38 @@ function Navbar() {
                     <nav>
                       <ul className="   text-[20px] flex flex-col gap-3 ">
                         <Link to="/">
-                          <li className="active text-black font-thin p-1 w-[80%]   hover-text-black cursor-pointer ">
+                          <li className="active text-black   p-1 w-[80%]   hover-text-black cursor-pointer ">
                             Home
                           </li>
                         </Link>
                         {/* <Link to="/home2">
-                          <li className="text-black font-thin p-1  text cursor-pointer">
+                          <li className="text-black  p-1  text cursor-pointer">
                             Home Page2
                           </li>
                         </Link> */}
 
                         <Link to="/project">
-                          <li className=" text-black font-thin p-1 w-[80%]   hover-text-black cursor-pointer ">
-                            Projects
+                          <li className=" text-black  p-1 w-[80%]   hover-text-black cursor-pointer ">
+                            Project
                           </li>
                         </Link>
                         <Link to="/service">
-                          <li className=" text-black font-thin p-1 w-[80%]   hover-text-black cursor-pointer ">
-                            Services
+                          <li className=" text-black  p-1 w-[80%]   hover-text-black cursor-pointer ">
+                            Service
                           </li>
                         </Link>
 
-                        <Link to="/blog">
-                          <li className=" text-black font-thin p-1 w-[80%]   hover-text-black cursor-pointer ">
+                        {/* <Link to="/blog">
+                          <li className=" text-black  p-1 w-[80%]   hover-text-black cursor-pointer ">
                             Blogs
                           </li>
-                        </Link>
+                        </Link> */}
                         <Link to="/contact">
-                          <li className=" text-black font-thin p-1 w-[80%]   hover-text-black cursor-pointer ">
+                          <li className=" text-black  p-1 w-[80%]   hover-text-black cursor-pointer ">
                             Contact
                           </li>
                         </Link>
-                <Link to="/Login" className="text-black font-thin hover:text-[#00d646] text text-decoration-none p-1  ">Login</Link>
+                <Link to="/Login" className="text-black  hover:text-[#00d646] text text-decoration-none p-1  ">Login</Link>
 
                       </ul>
                     </nav>
@@ -120,19 +120,19 @@ function Navbar() {
 
                 <Link to="/project">
                   <li className="hover:text-[#00d646] text-white   text cursor-pointer">
-                    Projects
+                    Project
                   </li>
                 </Link>
                 <Link to="/service">
                   <li className="hover:text-[#00d646] text-white  text cursor-pointer">
-                    Services
+                    Service
                   </li>
                 </Link>
-                <Link to="/blog">
+                {/* <Link to="/blog">
                   <li className="hover:text-[#00d646] text-white  text cursor-pointer">
                     Blogs
                   </li>
-                </Link>
+                </Link> */}
 
                 <Link to="/contact">
                   <li className="hover:text-[#00d646] text-white text cursor-pointer">

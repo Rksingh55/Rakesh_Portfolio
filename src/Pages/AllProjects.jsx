@@ -127,7 +127,7 @@ function AllProjects() {
             <div className="flex pb-12 max-sm:p-6 md:w-[80%] m-auto w-full flex-wrap justify-center gap-4">
               {Array.map((value, index) => (
                 <div className="" key={index}>
-                  <div className="service-card w-[350px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
+                  <div className="service-card w-[330px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
                     <div
                       className="bg-cover bg-center w-full h-[200px] animate-zoom-infinite"
                       style={{

@@ -25,7 +25,7 @@ function Topover() {
         <div className="fixed top-[96%] md:top-[90%] left-[93%] z-[999] ">
           <Link to="/" onClick={scrollToTop}>
             <div className="flex justify-end items-center md:w-[83%] m-auto relative">
-              <div className="md:h-[50px] w-[35px] h-[35px] md:w-[50px] rounded-full topover max-sm:mr-[37%] max-sm:mt-[-100px] flex items-center justify-center absolute bg-white">
+              <div className="md:h-[40px] w-[25px] h-[25px] md:w-[40px] rounded-full topover max-sm:mr-[37%] max-sm:mt-[-100px] flex items-center justify-center absolute bg-white">
                 <FcCollapse className="md:text-[30px] text-[20px] p-1 " />
               </div>
             </div>

@@ -167,8 +167,8 @@ function Homepage3() {
                 </h4>
                 <div className="flex justify-center mt-[50px]">
                   <a
-                    href="/Rakesh Updated Resume.pdf"
-                    download="Rakesh Updated Resume.pdf"
+                    href="/Fullstack Resume.pdf"
+                    download="Fullstack Resume.pdf"
                     className="text-decoration-none text-[#00d646] border-2 hover:bg-[#00d646] hover:text-white border-[#00d646] px-10 py-3 text-white"
                   >
                     Download Resume
@@ -276,6 +276,40 @@ function Homepage3() {
                       </div>
                     </div>
                   </div>
+                  <div>
+                    <h6>NodeJs</h6>
+                    <div class="rounded-md h-8">
+                      <div
+                        class=" bg-[#00d646] text-center text-[10px] rounded-md"
+                        style={{ width: "50%" }}
+                      >
+                        50%
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h6>ExpressJs</h6>
+                    <div class="rounded-md h-8">
+                      <div
+                        class=" bg-[#00d646] text-center text-[10px] rounded-md"
+                        style={{ width: "50%" }}
+                      >
+                        50%
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h6>Mongodb</h6>
+                    <div class="rounded-md h-8">
+                      <div
+                        class=" bg-[#00d646] text-center text-[10px] rounded-md"
+                        style={{ width: "70%" }}
+                      >
+                        70%
+                      </div>
+                    </div>
+                  </div>
+
 
                   <div>
                     <h6>Git & Github</h6>
@@ -345,7 +379,7 @@ function Homepage3() {
               >
                 {Array.map((value, index) => (
                   <div className="">
-                    <div className="service-card w-[350px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
+                    <div className="service-card w-[330px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
                       {/* Image div */}
                       <div
                         className="bg-cover bg-center w-full h-[200px] animate-zoom-infinite"
@@ -543,7 +577,7 @@ function Homepage3() {
                 >
                   {Array2.map((value, index) => (
                     <div className="">
-                      <div className="service-card w-[350px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
+                      <div className="service-card w-[330px] shadow-xl cursor-pointer snap-start shrink-0 flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-white relative overflow-hidden">
                         <div
                           className="bg-cover bg-center w-full h-[200px] animate-zoom-infinite"
                           style={{

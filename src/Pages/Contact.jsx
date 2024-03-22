@@ -67,10 +67,10 @@ function Contact() {
                 </div>
             <div className="basis-1/2">
               <form className="flex gap-2 flex-col">
-                <div className="flex gap-2 md:flex-row flex-col ">
-                  <input placeholder="Name" className="px-3 py-3" />
+                <div className="flex gap-2 md:flex-row flex-col  ">
+                  <input placeholder="Name" className="px-3 py-3  w-full" />
 
-                  <input placeholder="Email" className="px-3 py-3" />
+                  <input placeholder="Email" className="px-3 py-3  w-full" />
                 </div>
                 <input placeholder="Number" className="px-3 py-3  w-full" />
                 <textarea placeholder="Messege" className="px-3 py-3  w-full focus:outline-none" />

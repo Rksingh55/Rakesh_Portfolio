@@ -90,11 +90,11 @@ function Footer() {
                   Projects
                 </li>
                </Link>
-               <Link to="/blog">
+               {/* <Link to="/blog">
                <li className="hover:text-[#AF5FEF] text cursor-pointer">
                   Blogs
                 </li>
-               </Link>
+               </Link> */}
                 <Link to="/contact">
                 <li className="hover:text-[#AF5FEF] text cursor-pointer">
                   Contact
